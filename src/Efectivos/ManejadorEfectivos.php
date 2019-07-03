@@ -48,6 +48,93 @@ class ManejadorEfectivos implements IManejador
         return null;
     }
 
+    public function accidentes($presentes = [])
+    {
+       $oficiales = $this->checkArray($presentes,"oficial",3);
+       $peritos = $this->checkArray($presentes,"perito",1);
+       $cientifica = $this->checkArray($presentes,"cientifica",1);
+
+       if($oficiales && ($peritos || $cientifica)){
+           print_r("Accidente bajo control \n");
+       }else{
+           if ($this->siguienteManejador) {
+               return $this->siguienteManejador->accidentes($presentes);
+           }
+       }
+
+
+    }
+
+    public function robos()
+    {
+        if ($this->siguienteManejador) {
+            return $this->siguienteManejador->robos();
+        }
+    }
+
+    public function amenazasDeBomba($orden = [])
+    {
+        if($this->checkOrden($orden)){
+            print_r("Amenzasa de bomba control \n");
+        }else{
+            if ($this->siguienteManejador) {
+                return $this->siguienteManejador->amenazasDeBomba($orden);
+            }
+        }
+    }
+
+    public function secuestros($presentes = [])
+    {
+        $fueza = $this->checkArray($presentes,"fuerzaEspecial",2);
+        $comisario = $this->checkArray($presentes,"comisario",1);
+
+        if($fueza && $comisario){
+            print_r("Secuestro bajo control \n");
+        }else{
+            if ($this->siguienteManejador) {
+                return $this->siguienteManejador->accidentes($presentes);
+            }
+        }
+    }
+
+    public function asesinatos($presentes = [])
+    {
+        if ($this->siguienteManejador) {
+            return $this->siguienteManejador->asesinatos($presentes);
+        }
+    }
+
+
+    protected function checkArray($array,$key,$cant,$compare = "==")
+    {
+//        print_r("\n");
+//        print_r($key);
+//        print_r($cant);
+//        print_r($array);
+//        $aux = array_key_exists($key,$array);
+//        print_r(array_key_exists($key,$array));
+//        if($aux){
+//            print_r($array[$key] < $cant);
+//            print_r($array[$key]);
+//            return ($array[$key] >= $cant);
+//        }
+//        return false;
+        return array_key_exists($key,$array) && ($array[$key] <= $cant);
+//       $check = array_key_exists($key,$array);
+
+//       $method =  [
+//           "==" => "igual",
+//           ">" => "mayor",
+//           "<" => "menor"
+//       ];
+//       return $check && $this->$method[$compare]($array,$key,$cant);
+//       return $check && $this->$method[$compare]($array,$key,$cant);
+    }
+
+//    protected function igual($array,$key,$cant){return $array[$key] == $cant;}
+//    protected function mayor($array,$key,$cant){return $array[$key] > $cant;}
+//    protected function menor($array,$key,$cant){return $array[$key] < $cant;}
+
     protected function checkOrden($orden){
         $amenazaDeBomba = [
             "fuerzaEspecial",
@@ -72,12 +159,12 @@ class ManejadorEfectivos implements IManejador
                 $i=0;
             }
         }
-
-        if($i == 4){
-            print_r("amenzada de bomba cubierta\n");
-        }else{
-            print_r("no se pudo conseguir a los profecionales\n");
-        }
+        return $i==4;
+//        if($i == 4){
+//            print_r("amenzada de bomba cubierta\n");
+//        }else{
+//            print_r("no se pudo conseguir a los profecionales\n");
+//        }
     }
 
 }

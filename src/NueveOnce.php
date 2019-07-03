@@ -16,13 +16,6 @@ use function print_r;
 
 class NueveOnce
 {
-//    private static $instance;
-//
-//    private function __construct()
-//    {
-//        // Private to disabled instantiation.
-//    }
-
     protected $eg;
     private static function crearDepartamentoDePolicia()
     {
@@ -48,7 +41,8 @@ class NueveOnce
 			$eg = $estacion->crear("DetectiveD", "Petyr Baelish", $eg);
 			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
 
-
+        $eg = $estacion->crear("Comisario", "Sansa Stark", $eg);
+//
 //			$eg = $estacion->crear("Cientifica", "Daenerys Targaryen", $eg);
 //			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
 //			$eg = $estacion->crear("Comisario", "Sansa Stark", $eg);
@@ -59,22 +53,28 @@ class NueveOnce
 
     private static function generarDenuncias(IEfectivoDeGot $eg)
     {
-        $denuncias = [
+
+        print_r("\n++++++++++++++++++++++++++++++++++++++\nComienza las pruebas:\n++++++++++++++++++++++++++++++++++++++\n");
+//        $eg->accidentes();
+//        $eg->robos();
+        $eg->amenazasDeBomba();
+        $eg->amenazasDeBomba();
+//        $denuncias = [
 //            "accidentes",
-//            "accidentes",
-//            "accidentes",
-//            "robos",
-//            "amenazas de bomba",
-            "secuestros",
-//            "asesinatos",
-//            "asesinatos",
-//            "asesinatos",
-//            "disturbios"
-        ];
-        foreach ($denuncias as $denuncia){
-            print_r($denuncia."\n");
-            $eg->manejador($denuncia);
-        }
+////            "accidentes",
+////            "accidentes",
+////            "robos",
+////            "amenazas de bomba",
+////            "secuestros",
+////            "asesinatos",
+////            "asesinatos",
+////            "asesinatos",
+////            "disturbios"
+//        ];
+//        foreach ($denuncias as $denuncia){
+//            print_r("\n++++++++++++++++++++++++++++++++++++++\n".$denuncia."\n++++++++++++++++++++++++++++++++++++++\n");
+//            $eg->manejador($denuncia);
+//        }
     }
 
 

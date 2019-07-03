@@ -33,7 +33,7 @@ class ProxyDetective extends ManejadorEfectivos  implements IEfectivoDeGot,IDete
 
     public function manejador($peticion, $presentes = [])
     {
-        if ($peticion === "asesinatos" && !array_key_exists("detective",$presentes) && $this->estaOcupado == 0){
+        if ($peticion === "asesinatos" && $this->estaOcupado == 0){
             $this->investigar();
             $this->estaOcupado = 1;
         }else{

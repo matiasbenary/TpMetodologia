@@ -13,7 +13,7 @@ abstract class DetectiveTemplate
 {
     private static $instances = [];
     protected function __construct() { }
-    public static function getInstance()
+    public static function getInstance($model = "")
     {
         $subclass = static::class;
         if (!isset(self::$instances[$subclass])) {
