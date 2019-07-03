@@ -1,0 +1,20 @@
+{
+    "name": "vagrant/tpmetodologia",
+    "description": "Tp final Metodologia",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matias Benary",
+            "email": "matiasbenary@gmail.com"
+        }
+    ],
+    "require": {
+        "league/climate": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Patrones\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    }
+}

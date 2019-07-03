@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f16d7fc-d7ab-4213-a94d-d09cebc793c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ClassAbstract/DetectiveTemplate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassConcrete/InvestigacionAdapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassConcrete/InvestigacionDesprolija.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassConcrete/InvestigacionMinuciosa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/Cientifica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/Comisarios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/Detectives.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/Fabrica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDeCientifica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDeComisario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveM.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveSY.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDeEfectivos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDeFuerzaEspecial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDeOficial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDeOperador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FabricaDePerito.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/FuerzasEspeciales.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/ManejadorEfectivos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/Oficiales.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/Peritos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Efectivos/ProxyDetective.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/IDetective.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/IEfectivoDeGot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/IManejador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InvestigacionAlEstiloScotlandYard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NueveOnce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/InvestigacionAlEstiloScotlandYard.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="128">
+                    <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1672041039">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+          <entry key="lock" value="1" />
+          <entry key="php" value="111" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="PHP" value="111" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="20" />
+          <entry key="PHP Interface.type" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="php" value="3362" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="3362" />
+          <entry key="PLAIN_TEXT" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Efectivos/Detectives.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#119#164#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Efectivos/ProxyDetective.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="35" column="107" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
+              <folding>
+                <element signature="e#120#155#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Efectivos/Oficiales.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <element signature="e#120#159#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Efectivos/ManejadorEfectivos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="845">
+              <caret line="69" column="15" selection-start-line="67" selection-start-column="12" selection-end-line="69" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveM.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="e#120#170#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveSY.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassConcrete/InvestigacionAdapter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="e#124#169#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassAbstract/DetectiveTemplate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassConcrete/InvestigacionDesprolija.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NueveOnce.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+              <folding>
+                <element signature="e#110#141#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>f</find>
+      <find>eg</find>
+      <find>.</find>
+      <find>peticion</find>
+      <find>amenazas de bomba</find>
+      <find>amenazas de bombas</find>
+      <find>FabricaDeEfectivos::</find>
+      <find>manejador($peticion)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$fabrica</replace>
+      <replace>$eg</replace>
+      <replace>::</replace>
+      <replace>$peticion</replace>
+      <replace>amenazas de bomba</replace>
+      <replace>$estacion-&gt;</replace>
+      <replace>manejador($peticion,$presentes = [])</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/Efectivos</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/InvestigacionAlEstiloScotlandYard.php" />
+        <option value="$PROJECT_DIR$/src/Abstract/FabricaDeEfectivos.php" />
+        <option value="$PROJECT_DIR$/src/ClassAbstract/FabricaDeEfectivos.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/Manejador.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/ManejadorAbstracto.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDeEfectivos.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/Fabrica.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDeComisario.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDePerito.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDeCientifica.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDeFuerzaEspecial.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDeOficial.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDeOperador.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/src/Interfaces/IManejador.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/Peritos.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FuerzasEspeciales.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/Comisarios.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/Cientifica.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/Oficiales.php" />
+        <option value="$PROJECT_DIR$/src/Interfaces/IDetective.php" />
+        <option value="$PROJECT_DIR$/src/ClassConcrete/invetigacionMinuciosa.php" />
+        <option value="$PROJECT_DIR$/src/ClassConcrete/invetigacionDesprolija.php" />
+        <option value="$PROJECT_DIR$/src/ClassConcrete/InvestigacionDesprolija.php" />
+        <option value="$PROJECT_DIR$/src/ClassConcrete/InvestigacionMinuciosa.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/Detectives.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/ProxyDetective.php" />
+        <option value="$PROJECT_DIR$/src/ClassAbstract/DetectiveTemplate.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveD.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveM.php" />
+        <option value="$PROJECT_DIR$/src/ClassConcrete/InvestigacionAdapter.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveSY.php" />
+        <option value="$PROJECT_DIR$/src/Efectivos/ManejadorEfectivos.php" />
+        <option value="$PROJECT_DIR$/src/NueveOnce.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/seld/cli-prompt" />
+      <path value="$PROJECT_DIR$/vendor/league/climate" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tpmetodologia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpmetodologia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpmetodologia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpmetodologia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpmetodologia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpmetodologia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassAbstract" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpmetodologia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpmetodologia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassConcrete" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpmetodologia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpmetodologia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Efectivos" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ClassConcrete" />
+      <recent name="$PROJECT_DIR$/src/Efectivos" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f16d7fc-d7ab-4213-a94d-d09cebc793c5" name="Default Changelist" comment="" />
+      <created>1562097286387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562097286387</updated>
+      <workItem from="1562097287532" duration="1238000" />
+      <workItem from="1562098594884" duration="1795000" />
+      <workItem from="1562100404038" duration="1750000" />
+      <workItem from="1562102211017" duration="851000" />
+      <workItem from="1562104601151" duration="1796000" />
+      <workItem from="1562106410302" duration="1931000" />
+      <workItem from="1562108355507" duration="1796000" />
+      <workItem from="1562110173193" duration="1794000" />
+      <workItem from="1562111983220" duration="1795000" />
+      <workItem from="1562113792437" duration="1662000" />
+      <workItem from="1562119468581" duration="1800000" />
+      <workItem from="1562121312565" duration="1794000" />
+      <workItem from="1562123120470" duration="1794000" />
+      <workItem from="1562124927739" duration="228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22024000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29166666" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeEfectivos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeFuerzaEspecial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeOficial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeOperador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDePerito.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/Fabrica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/Peritos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="31" column="104" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FuerzasEspeciales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="31" column="9" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/IManejador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/IEfectivoDeGot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="9" selection-start-line="11" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/Cientifica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassAbstract/FabricaDeEfectivos.php" />
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/IDetective.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/Comisarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassConcrete/InvestigacionMinuciosa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeCientifica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeComisario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <element signature="e#119#170#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#120#170#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/FabricaDeDetectiveSY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassConcrete/InvestigacionAdapter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#124#169#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassAbstract/DetectiveTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassConcrete/InvestigacionDesprolija.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InvestigacionAlEstiloScotlandYard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/ManejadorEfectivos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="845">
+          <caret line="69" column="15" selection-start-line="67" selection-start-column="12" selection-end-line="69" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/Detectives.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#119#164#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/ProxyDetective.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" column="107" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
+          <folding>
+            <element signature="e#120#155#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Efectivos/Oficiales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#120#159#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NueveOnce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+          <folding>
+            <element signature="e#110#141#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
