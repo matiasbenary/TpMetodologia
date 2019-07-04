@@ -16,6 +16,6 @@ class FabricaDeOperador extends FabricaDeEfectivos
 
     protected function crearFabrica($nombre,$siguiete)
     {
-//        return new Oper($nombre,$siguiete);
+        return new Operador($nombre,$siguiete);
     }
 }

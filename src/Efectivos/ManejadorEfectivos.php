@@ -97,10 +97,17 @@ class ManejadorEfectivos implements IManejador
         }
     }
 
-    public function asesinatos($presentes = [])
+    public function asesinatos()
     {
         if ($this->siguienteManejador) {
-            return $this->siguienteManejador->asesinatos($presentes);
+            return $this->siguienteManejador->asesinatos();
+        }
+    }
+
+    public function disturbios($cant = 0)
+    {
+        if ($this->siguienteManejador) {
+            return $this->siguienteManejador->disturbios($cant);
         }
     }
 

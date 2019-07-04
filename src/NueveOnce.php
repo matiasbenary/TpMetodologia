@@ -40,8 +40,14 @@ class NueveOnce
 			$eg = $estacion->crear("Oficial", "Bran Stark", $eg);
 			$eg = $estacion->crear("DetectiveD", "Petyr Baelish", $eg);
 			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
+//			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
+//			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
+//			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
+//			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
+//			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
+//			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
+			$eg = $estacion->crear("Comisario", "Sansa Stark", $eg);
 
-        $eg = $estacion->crear("Comisario", "Sansa Stark", $eg);
 //
 //			$eg = $estacion->crear("Cientifica", "Daenerys Targaryen", $eg);
 //			$eg = $estacion->crear("Oficial", "Tywin Lannister", $eg);
@@ -55,10 +61,14 @@ class NueveOnce
     {
 
         print_r("\n++++++++++++++++++++++++++++++++++++++\nComienza las pruebas:\n++++++++++++++++++++++++++++++++++++++\n");
-//        $eg->accidentes();
-//        $eg->robos();
+        $eg->accidentes();
+        $eg->robos();
         $eg->amenazasDeBomba();
-        $eg->amenazasDeBomba();
+        $eg->asesinatos();
+//        $eg->asesinatos();
+//        $eg->asesinatos();
+//        $eg->secuestros();
+        $eg->disturbios();
 //        $denuncias = [
 //            "accidentes",
 ////            "accidentes",

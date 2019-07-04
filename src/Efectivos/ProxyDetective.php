@@ -41,4 +41,15 @@ class ProxyDetective extends ManejadorEfectivos  implements IEfectivoDeGot,IDete
         }
 
     }
+
+    public function asesinatos()
+    {
+        if ($this->estaOcupado == 0) {
+            print_r("Detective " . $this->nombre . " disponible para el asesinato \n");
+            $this->investigar();
+            $this->estaOcupado = 1;
+        }else{
+            return parent::asesinatos();
+        }
+    }
 }
